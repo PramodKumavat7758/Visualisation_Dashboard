@@ -7,6 +7,7 @@ def dashboard(request):
     return render(request, "dashboard.html")
 
 def get_filtered_data(request):
+
     filters = Q()
     for field in ['end_year', 'topic', 'sector', 'region', 'pestle', 'source', 'country', 'city']:
         value = request.GET.get(field, '').strip()
