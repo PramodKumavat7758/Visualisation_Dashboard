@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'Visualisation_Dashboard.wsgi.application'
 from mongoengine import connect
 
 # MongoDB Atlas connection string
-MONGO_URI = "mongodb+srv://root:Pramod%40123@pkumavat.hcr40fo.mongodb.net/visualisation_db"
+MONGO_URI = "mongodb+srv://root:Pramod%40123@pkumavat.hcr40fo.mongodb.net/visualisation_db?retryWrites=true&w=majority"
 
 # Connect MongoEngine to MongoDB Atlas
 connect(
