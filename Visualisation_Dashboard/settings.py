@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+STATIC_ROOT = "/home/ubuntu/miniproject_2/Visualisation_Dashboard/staticfiles"
 
 # Application definition
 
